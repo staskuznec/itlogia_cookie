@@ -9,7 +9,7 @@
 }
 
 @font-face {
-    font-family: Steppe-ExtraBold;
+    font-family: 'Steppe-ExtraBold';
     src: url("../fonts/Steppe-ExtraBold.ttf");
 }
 
@@ -53,7 +53,7 @@ body {
 }
 
 .logo img {
-    vertical-align: top;
+    vertical-align: bottom;
 }
 
 .menu {
@@ -66,7 +66,7 @@ body {
     gap: 50px;
 }
 
-.menu-list a {
+.menu-item a {
     font-size: 16px;
     line-height: 130%;
     text-decoration: none;
@@ -88,7 +88,7 @@ body {
 }
 
 .main-title {
-    font-family: 'Steppe-Book', sans-serif;
+    font-family: 'Steppe-ExtraBold', sans-serif;
     font-size: 90px;
     line-height: 100%;
     margin-bottom: 20px;
