@@ -37,19 +37,15 @@ document.getElementById('change-currency').onclick = function (e) {
     if (currentCurrency === '$') {
         newCurrency = '₽';
         coefficient = cources.rub;
-        //coefficient = 91.04603509;
     } else if (currentCurrency === '₽') {
         newCurrency = 'BYN';
         coefficient = cources.byn;
-        //coefficient = 3.23997677;
     } else if (currentCurrency === 'BYN') {
         newCurrency = '€';
         coefficient = cources.eur;
-        //coefficient = 0.92635132;
     } else if (currentCurrency === '€') {
         newCurrency = '¥';
         coefficient = cources.cny;
-        //coefficient = 7.21908235;
     }
 
 
